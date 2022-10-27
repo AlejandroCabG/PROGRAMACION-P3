@@ -1,4 +1,4 @@
-import java.util.LinkedList;
+//import java.util.LinkedList;
 
 public class App {
     public static void main(String[] args) {
@@ -6,7 +6,7 @@ public class App {
         Stack stack = new Stack();
 
         System.out.println(stack.isEmpty());
-       // stack.add("item");
+        stack.add("item");
         System.out.println(stack.isEmpty());
         System.out.println(stack.removeFirst());
         System.out.println(stack.getFirst());

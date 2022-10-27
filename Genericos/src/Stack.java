@@ -28,6 +28,7 @@ public class Stack<T> {
     }
 
     public String toString() {
+
         return lista.toString();
     }
 
