@@ -6,7 +6,6 @@ public class Stack<T> {
     public Stack() {
         super();
     }
-
     public boolean isEmpty() {
         return lista.isEmpty();
     }
@@ -16,11 +15,6 @@ public class Stack<T> {
     }
     public T getFirst() {
         return lista.getFirst();
-    }
-    public void add(T item){
-        lista.add((T) "Perros");
-        lista.add((T) "Gatos");
-        System.out.println(lista);
     }
     public T aniadir(T item) {
         lista.addFirst(item);

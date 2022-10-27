@@ -13,9 +13,9 @@ public class StackArray <T> {
     }
 
     public <T> void removeFirst() {
-        for (int i = array.length-1; i < 0; i++) {
+        for (int i = array.length; i < 0; i++) {
             array[i] = array[i + 1];
-            objetos--;
+            //objetos--;
         }
     }
     public <T> void getFirst() {
@@ -31,7 +31,7 @@ public class StackArray <T> {
             }
             array = newArray;
         } else {
-            for (int j = array.length - 1; j > 0; j--) {
+            for (int j = array.length - 1; j < 0; j--) {
                 array[j] = array[j - 1];
 
             }

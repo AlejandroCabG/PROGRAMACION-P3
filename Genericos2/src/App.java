@@ -6,7 +6,7 @@ public class App {
         stack.add(4);
         stack.removeFirst();
         stack.getFirst();
-        stack.add(2);
+        //stack.add(2);
         stack.toString();
     }
 }
